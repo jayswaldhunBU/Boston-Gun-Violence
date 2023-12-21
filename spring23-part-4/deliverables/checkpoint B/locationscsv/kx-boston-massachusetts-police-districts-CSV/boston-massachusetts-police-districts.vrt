@@ -1,0 +1,21 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="boston-massachusetts-police-districts">
+    <SrcDataSource relativeToVRT="1">boston-massachusetts-police-districts.csv</SrcDataSource>
+    <FeatureCount>12</FeatureCount>
+    <GeometryField field="WKT" reportSrcColumn="FALSE">
+      <GeometryType>wkbPolygon</GeometryType>
+      <SRS>EPSG:2249</SRS>
+      <ExtentXMin>739826.900197193</ExtentXMin>
+      <ExtentYMin>2908285.10002603</ExtentYMin>
+      <ExtentXMax>804052.499436021</ExtentXMax>
+      <ExtentYMax>2970073.10046552</ExtentYMax>
+    </GeometryField>
+    <Field name="DISTRICT_1" src="DISTRICT_1" type="Real" />
+    <Field name="DISTRICT" src="DISTRICT" type="String" width="5" />
+    <Field name="DISTRICT_2" src="DISTRICT_2" type="String" width="5" />
+    <Field name="STArea" src="STArea" type="Real" />
+    <Field name="BPDGIS_GIS" src="BPDGIS_GIS" type="String" width="2" />
+    <Field name="ID" src="ID" type="String" width="4" />
+    <Field name="STLength" src="STLength" type="Real" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>
